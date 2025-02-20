@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+    <meta charset="UTF-8"/>
+    <title>lp -RWD-</title>
+    <meta name="description" content="lpとレスポンシブデザインの練習"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <!--リセットcss-->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=sawarabi+gothic" rel="stylesheet">
+    </head>
+    <body>
+        <!--ヘッダー-->
+    <header id="header">
+        <h1 class="site-title"><a href="#">nissho code</a></h1>
+        <nav>
+            <ul>
+                <li><a href="#about">about</a></li>
+                <li><a href="#work">work</a></li>
+                <li><a href="news">news</a></li>
+                <li><a href="contact">contact</a></li>
+                <li><a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer">
+                    <img src="./img/twitter.png" alt="twitter" class="icon">
+                </a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <!--メインビジュアル-->
+        <div id="mainvisual">
+            <picture>
+                <source media="(max-width:600px)" srcset="/img/main-sp.jpg">
+                <img src="img/main.jpg" alt="nissho code image">
+            </picture>
+        </div>
+        <!--abaut-->
+        <section id="about" class="wrapper">
+            <h2 class="sec-title">about</h2>
+            <ul>
+                <li>nissho code株式会社</li>
+                <li>web制作会社として設立</li>
+                <li>pythonでAiやFINTECHシステム開発、webサイト.アプリ開発を承ります</li>
+                <li>メールアドレス:xxxxx@xx.com</li>
+            </ul>
+            <p>AI, FINTECH, webサイト制作やアプリ開発を得意としています。また、web講師としても活動しており新人育成をしたい企業の申し込み承ります</p>
+        </section>
+        <!--work-->
+        <section id="works" class="wrapper">
+            <ul>
+                <li><img src="./img/works1.jpg" alt="works1"></li>
+                <li><img src="./img/works2.jpg" alt="works2"></li>
+                <li><img src="./img/works3.jpg" alt="works3"></li>
+                <li><img src="./img/works4.jpg" alt="works4"></li>
+                <li><img src="./img/works5.jpg" alt="works5"></li>
+                <li><img src="./img/works6.jpg" alt="works6"></li>
+            </ul>
+        </section>
+        <!--news-->
+        <section id="news" class="wrapper">
+            <h2 class="sec-title">news</h2>
+            <dl>
+                <dl>2022/10/23</dl>
+                <dd>本サイトをリリースしました。</dd>
+                <dt>2022/20/23</dt>
+                <dd>プログラミングスクールの運営を開始しました。</dd>
+                <dt>2022/10/23</dt>
+                <dd>【チャンネル登録】よろしくお願いします。</dd>
+                <dt>2022/10/23</dt>
+                <dd>プログラミング出張講師の仕事を初めました。
+                </dd>
+                <dt>2022/10/23</dt>
+                <dd>twitter初めました。少しずつつぶやいていきます。</dd>
+            </dl>
+        </section>
+        <!--contact-->
+        <section id="contact" class="wrapper">
+            <h2 class="sec-title">contact</h2>
+            <p>お問い合わせは以下のフォームから</p>
+            <form action="#" method="post">
+                <dl>
+                    <dt><label for="name">お名前</label></dt>
+                    <dd><input type="text" id="name"></dd>
+                    <dt><label for="email">メールアドレス</label></dt>
+                    <dd><input type="email" id="email"></dd>
+                    <dt><label for="content">内容</label></dt>
+                    <dd><textarea id="content" cols="30" rows="10"></textarea></dd>
+                </dl>
+                <div class="button">
+                    <input type="submit" value="送信">
+                </div>
+            </form>
+        </section>
+        <!--footer-->
+        <footer id="footer"></footer>
+    </main>
+</body>
+</html>
