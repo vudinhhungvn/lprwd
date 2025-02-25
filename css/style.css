@@ -153,6 +153,7 @@ works
 }
 
 /*------------------------------------------
+news
 ------------------------------------------*/
 #news dl{
     display: flex;
@@ -207,7 +208,7 @@ contact
     border: solid 1px #24292e;
     width: 200px;
     background-color: #24292e;
-    color: #fff
+    color: #fff;
     padding: 15px 0;
     transition: all 0.3s;
 }
@@ -262,7 +263,8 @@ smart phone
         padding-bottom: 0;
     }
 
-    #news dd {width: 100%;
+    #news dd {
+        width: 100%;
         padding-top: 0;
 
     }
